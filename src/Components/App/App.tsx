@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Connect } from './Connect';
-import { Hobbies } from './Hobbies';
-import { Navigation } from './Navigation';
-import { Projects } from './Projects';
-import { SoftwareSkills } from './SoftwareSkills';
-import Welcome from './Welcome';
+import { Connect } from '../Connect/Connect';
+import { Hobbies } from '../Hobbies/Hobbies';
+import { Navigation } from '../Navigation/Navigation';
+import { Projects } from '../Projects/Projects';
+import { SoftwareSkills } from '../SoftwareSkills/SoftwareSkills';
+import Welcome from '../Welcome/Welcome';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
