@@ -1,0 +1,11 @@
+.Navigation {
+    display: flex;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+}
