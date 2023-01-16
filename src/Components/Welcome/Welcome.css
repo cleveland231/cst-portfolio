@@ -1,0 +1,10 @@
+.Welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.WelcomeBox {
+    padding: 1rem;
+    width: 50%;
+}
