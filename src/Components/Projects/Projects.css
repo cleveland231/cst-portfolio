@@ -1,0 +1,14 @@
+.LeftTitle {
+    width: 30%;
+}
+
+.ProjectBox {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: flex-start;
+    padding: 1rem
+}
+
+.Projects {
+    padding: 1.5rem;
+}
