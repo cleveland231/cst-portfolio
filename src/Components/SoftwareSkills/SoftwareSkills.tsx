@@ -53,7 +53,7 @@ export const SoftwareSkills = () => {
         <div className='skills'>
           <h2 className='LeftTitle'> Learning </h2>
           <div className='Imgshield'>
-            <h3> Ruby on Rails | node.js </h3>
+            <p> Ruby on Rails | Node.js | Express </p>
           </div>
         </div>
 
