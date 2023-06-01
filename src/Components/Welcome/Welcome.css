@@ -24,7 +24,7 @@
     color: white;
   }
 
-h2 {
+ul {
     display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
