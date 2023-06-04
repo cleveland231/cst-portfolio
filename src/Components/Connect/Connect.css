@@ -33,3 +33,23 @@ h2 {
 	align-content: flex-start;
     font-size: 3rem;
 }
+
+.ConnectLinks:link {
+	text-decoration: none;
+	color: white;
+}
+
+.ConnectLinks:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.ConnectLinks:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+.ConnectLinks:active {
+	text-decoration: none;
+	color: grey;
+}

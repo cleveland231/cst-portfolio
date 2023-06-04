@@ -4,42 +4,58 @@ import './Hobbies.css'
 
 export const Hobbies = () => {
   return (
-    <div className='Hobbies'>
-
-      <div className="HobbiesBox">
-        <h2 className='LeftTitle'> Photography </h2>
-        <div className="PhotoBox">
-          <div className='AboutPhotos'>
-            <p> "TUA PANCE" </p>
-            <p> 2017 </p>
-            <p> Manado, Indonesia </p>
+    <div className='Projects'>
+      <div className='ProjectBox'>
+        <h2 className='LeftTitle'>
+          <img className='ProjectPicture' src={'https://github.com/turingschool-examples/whats-cookin-starter-kit/assets/96998327/a8e19c56-2750-40d2-a053-5f86d35721f3'} alt="Greeley" />
+        </h2>
+        <div className='ProjectSpot'>
+          <div className='ProjectTitle'>
+            <h3> Open Planes </h3>
           </div>
-          <img className='HobbiePhotos' src={"https://user-images.githubusercontent.com/96998327/214158768-a03523e8-df53-4e12-bf49-fd80ae07c029.jpg"} alt="unlce"/>
+          <div className='ProjectDescription'>
+            <p className='BlogHashTags'>Design websites with best UI/UX and Accessibility practices</p>
+          </div>
+          <div className='ButtonSpot'>
+            <button>Read Blog</button>
+          </div>
         </div>
       </div>
 
-      <div className="HobbiesBox">
-        <h2 className='LeftTitle'> Playlists </h2>
-        <div className='Link'>
-        <p> Music Playlists for Different Moods and Workouts </p>
-          <a className="Links" href="https://open.spotify.com/user/ayocleveland?si=7ca91bc2d07d46c6" rel="noreferrer"> <h3 className="Links"> Spotify </h3> </a> 
+      <div className='ProjectBox'>
+        <h2 className='LeftTitle'>
+          <img className='ProjectPicture' src={'https://github.com/turingschool-examples/whats-cookin-starter-kit/assets/96998327/a8e19c56-2750-40d2-a053-5f86d35721f3'} alt="Greeley" />
+        </h2>
+        <div className='ProjectSpot'>
+          <div className='ProjectTitle'>
+            <h3> Open Planes </h3>
+          </div>
+          <div className='ProjectDescription'>
+            <p className='BlogHashTags'>Design websites with best UI/UX and Accessibility practices</p>
+          </div>
+          <div className='ButtonSpot'>
+            <button>Read Blog</button>
+          </div>
         </div>
       </div>
 
-      <div className="HobbiesBox">
-        <h2 className='LeftTitle'> Fitness </h2>
-        <div className='Link'>
-          <p> Let's Connect and Train Together </p>
-          <a className="Links" href="https://www.strava.com/athletes/107712270" rel="noreferrer"> <h3 className='Links'> Strava </h3> </a> 
+      <div className='ProjectBox'>
+        <h2 className='LeftTitle'>
+          <img className='ProjectPicture' src={'https://github.com/turingschool-examples/whats-cookin-starter-kit/assets/96998327/a8e19c56-2750-40d2-a053-5f86d35721f3'} alt="Greeley" />
+        </h2>
+        <div className='ProjectSpot'>
+          <div className='ProjectTitle'>
+            <h3> Open Planes </h3>
+          </div>
+          <div className='ProjectDescription'>
+            <p className='BlogHashTags'>Design websites with best UI/UX and Accessibility practices</p>
+          </div>
+          <div className='ButtonSpot'>
+            <button>Read Blog</button>
+          </div>
         </div>
       </div>
 
-      <div className="HobbiesBox">
-        <h2 className='LeftTitle'> Blog </h2>
-        <div className='Link'>
-          <p> Coming Soon... </p>
-        </div>
-      </div>
     </div>
   )
 }

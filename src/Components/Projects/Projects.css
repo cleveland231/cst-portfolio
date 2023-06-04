@@ -12,3 +12,48 @@
 .Projects {
     padding: 1.5rem;
 }
+
+.ProjectSpot {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+    width: 70%;
+    padding: 1rem;
+}
+
+.ProjectPoints {
+    font-size: 1.125rem;
+}
+
+.ButtonSpot {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+}
+
+.ProjectPicture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.BuiltUsing {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+    padding-bottom: 1rem;
+}
